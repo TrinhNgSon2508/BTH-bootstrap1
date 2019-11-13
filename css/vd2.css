@@ -1,0 +1,15 @@
+.blockquote{
+	position: relative;
+	padding-left: 2rem;
+
+}
+.blockquote::before{
+	font-family: open san;
+	content: "\201C";
+	position: absolute;
+	font-size: 3rem;
+	top: -1rem;
+	left: 0;
+	color: red;
+	font-weight: bold;
+}

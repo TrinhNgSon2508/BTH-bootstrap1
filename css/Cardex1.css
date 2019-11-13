@@ -1,0 +1,41 @@
+.chua{
+	padding: 0.2rem;
+	border-bottom-left-radius: 0.2rem;
+	border-bottom-right-radius: 0.2rem;
+}
+a{
+	font-family: times new roman;
+}
+a.bg-primary{
+	font-size: 1.2rem;
+	border-top-left-radius: 0.2rem;
+	border-top-right-radius: 0.2rem;
+}
+.chua a.text-decoration-none{
+	text-align: center;
+	float: right;
+	width: 5rem;
+	height: auto;
+	border-radius: 0.3rem;
+	border: 1px solid white;
+	background: #007bff;
+	color: white;
+	transition: 1s;
+}
+.chua a.text-decoration-none:hover{
+	background: white;
+	color: black;
+}
+a.p-2.pl-4.text-dark.text-decoration-none{
+	background: #f7f7f7;
+}
+a.btn{
+	font-size: 1.2rem;
+	background: #007bff;
+	color: white;
+}
+a.btn:hover{
+	color: #007bff;
+	background: white;
+	border: 1px solid #007bff;
+}

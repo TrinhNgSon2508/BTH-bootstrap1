@@ -1,0 +1,41 @@
+a,p{
+	font-family: times new roman
+}
+.bx{
+	color: lightgray;
+}
+.bx:hover{
+	color: white;
+}
+.iconvao .form-control {
+    padding-left: 2.375rem;
+}
+
+.iconvao .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    top: 5%;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2.375rem;
+    pointer-events: none;
+    color: #aaa;
+}
+a.text-center{
+	font-size: 1.5rem;
+}
+h4{
+	color: white;
+}
+h4:hover{
+	color: #1cbced
+}
+div.text-center{
+	background: #1cbced;
+	border-radius: 5px;
+}
+div.text-center:hover{
+	background: white;
+}
+

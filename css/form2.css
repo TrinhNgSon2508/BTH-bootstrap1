@@ -1,0 +1,19 @@
+.container{
+	background: #f93c64;
+}
+a{
+	font-family: times new roman;
+	width: 10%;
+	height: auto;
+	padding: 0.4rem;
+	color: white;
+	background: #ffc107;
+	font-size: 1.5rem;
+	border-radius: 10px;
+	transition: 0.5s ;
+
+}
+a:hover{
+	color: #ffc107;
+	background: white;
+}

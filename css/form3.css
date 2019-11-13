@@ -1,0 +1,68 @@
+a, label{
+	font-family: times new roman;
+}
+.container{
+    background: lightgray;
+}
+.iconvao .form-control {
+    padding-left: 2.375rem;
+}
+
+.iconvao .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    left: 4%;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 2.375rem;
+    pointer-events: none;
+    color: #aaa;
+}
+.icon .form-control {
+    padding-left: 2.375rem;
+}
+.icon .form-control-feedbacks{
+    position: absolute;
+    z-index: 2;
+    top: 35%;
+    left: 2%;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 2.375rem;
+    pointer-events: none;
+    color: #aaa;
+}
+a{
+    font-family: times new roman;
+    width: auto;
+    height: auto;
+    padding: 0.4rem;
+    color: black;
+    background: #ffc107;
+    font-size: 1.5rem;
+    transition: 0.5s ;
+
+
+}
+a:hover{
+    color: red;
+    background: white;
+    border: 1px solid black;
+}
+@media screen and (max-width: 480px){
+    .icon .form-control-feedbacks{
+    position: absolute;
+    z-index: 2;
+    top: 35%;
+    left: 4%;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 2.375rem;
+    pointer-events: none;
+    color: #aaa;
+}
+}

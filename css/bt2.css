@@ -1,0 +1,32 @@
+ img{
+	width: 80%;
+	height: 95%;
+	border-radius: 25px;
+	margin-left: 2rem;
+}
+.blockquote{
+	position: relative;
+	padding-left: 1.5rem;
+}
+.chu{
+	position: relative;
+	padding-left: 1rem;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: orange;
+}
+.chu p{
+	font-family: Freestyle Script;
+	font-size: 25px;
+}
+.tamgiac{
+	width: 0;
+    height: 0;
+    border-top: 1px solid transparent ;
+    border-bottom: 20px solid transparent;
+    border-right: 50px solid orange	;
+    position: absolute;
+    border-radius: -10px;
+    top: 20%;
+    left: -0.9rem;
+}

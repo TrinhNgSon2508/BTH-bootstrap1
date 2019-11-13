@@ -1,0 +1,16 @@
+span.badge.badge-info{
+	border-radius: 50%;
+	background: #ae00ff;
+	width: 20px;
+	height: 20px;
+	float: right;
+}
+li{
+	float: left;
+}
+span.a11.badge.badge-info{
+	background: black;
+	border-radius: 40%;
+	width: 30px;
+	height: 20px;
+}

@@ -1,0 +1,41 @@
+.vungngoai{
+	width: 350px;
+	height: 450px;
+	background: lightgray;
+	margin: 0 auto;
+	position: relative;
+}
+.blockquote{
+	position: relative;
+}
+.row{
+	border-bottom-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+}
+.blockquote::before{
+	font-family: arial;
+	content: "\201C";
+	position: absolute;
+	font-size: 5rem;
+	top: -1.8rem;
+	left: -0.8rem;
+	color: white;
+	font-weight: bold;
+}
+.tamgiac{
+	width: 0;
+    height: 0;
+    border-right: 2.1rem solid transparent ;
+    border-left: 2.1rem solid transparent;
+    border-top: 1.6rem solid #48c29d;
+    position: absolute;
+    top: 100%;
+    left: 15%;
+}
+.anh{
+	margin-left: 1.8rem;
+	margin-top: 1.8rem;
+	width: 80px;
+	height: 80px;
+	/*background: red;*/
+}
